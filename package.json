@@ -12,6 +12,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "video-api-node": "git+https://github.com/GetStream/video-api-node.git"
+    "jsonwebtoken": "^9.0.2"
   }
 }
