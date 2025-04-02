@@ -20,7 +20,7 @@ app.post('/get-token', (req, res) => {
     {
       user_id: userId,
     },
-    process.env.STREAM_API_SECRET,
+    process.env.API_SECRET,
     {
       algorithm: 'HS256',
       expiresIn: '1h',
